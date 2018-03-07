@@ -1,0 +1,294 @@
+
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+
+/* ===========================================================
+   GENERAL STYLESHEET BY BYINARY THEME    
+   ============================================================*/
+a{text-decoration:none;}
+.body-content{padding-left: 15px;
+padding-right: 15px;
+Margin-top:50px;
+width:100%;
+float:left;
+padding-bottom:30px;}
+/*----------tap panel style------*/
+ .tab-panel {
+            width: 100%;
+            display: inline-block;
+        }
+
+        .tab-link:after {
+            display: block;
+            padding-top: 20px;
+            content: '';
+        }
+
+        .tab-link li {
+            margin: 0px 5px;
+            float: left;
+            list-style: none;
+        }
+
+        .tab-link a {
+            padding: 8px 15px;
+            display: inline-block;
+            border-radius: 10px 3px 0px 0px;
+            background: #8dc8f5;
+            font-weight: bold;
+            color: #4c4c4c;
+        }
+
+            .tab-link a:hover {
+                background: #b7c7e5;
+                text-decoration: none;
+            }
+
+        li.active a, li.active a:hover {
+            background: #ccc;
+            color: #0094ff;
+            text-decoration:none;
+        }
+
+        .content-area {
+            padding: 15px;
+            border-radius: 3px;
+            box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+            background: #fff;
+            border: 1px solid #ccc;
+        }
+
+        .inactive{
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+}
+
+h1 {
+    padding-top: 30px;
+    color: #fff;
+    font-weight: 800;
+}
+
+h5 {
+    padding-bottom: 30px;
+}
+h4{
+    margin-top: 4px;
+}
+.text-center {
+    text-align: center;
+}
+
+.main-top-margin {
+    margin-top: 120px;
+}
+
+.main-low-margin {
+    margin-top: 55px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+.img-margin-product {
+    margin-top: 30px;
+}
+
+.bottam-pad {
+    padding-bottom: 40px;
+}
+
+.space-bottom {
+    height: 120px;
+}
+
+.space-top {
+    height: 70px;
+}
+
+.main-icon {
+    font-size: 350px;
+    color: rgba(102, 110, 197, 1);
+}
+
+.head-line {
+    font-size: 70px;
+    padding-bottom: 50px;
+    line-height: 65px;
+    font-weight: 900;
+}
+/* ==========================================================================
+   COLOR CODES
+   ========================================================================== */
+
+.color-red {
+    color: #ff0000;
+}
+
+.color-green {
+    color: #07BB00;
+}
+
+.color-light-blue {
+    color: #BB00BB;
+}
+
+.color-blue {
+    color: #0052FF;
+}
+
+.color-brown {
+    color: #EB8F2D;
+   
+}
+
+.color-black {
+    color: #000000;
+}
+
+.section {
+    background-color: #4E63D1;
+    color: #fff;
+}
+.circle-body {
+ width: 150px;
+height: 150px;
+margin: 0 auto 14px auto;
+border: 5px solid #ADA2EB;
+border-radius: 100%;
+background-color: #FFFFFF;
+}
+.icon-set {
+    position: relative;
+padding: 30px;
+}
+
+
+
+/*==========================================
+   SOCIAL ICON STYLES
+    =====================================================*/
+
+
+.color-facebook {
+    color: #3B5998;
+}
+
+.color-twitter {
+    color: #00aced;
+}
+
+.color-google-plus {
+    color: #dd4b39;
+}
+
+.color-linkedin {
+    color: #007bb6;
+}
+
+.color-pinterest {
+    color: #cb2027;
+}
+
+/* ===========================================================
+   SLIDER ADJUSTMENTS (slider.css)  
+   ============================================================*/
+
+     .slidesjs-container {
+            height:550px!important;
+        }
+#slides {
+   
+    padding:0px 0px 15px 0px;
+}
+.mySlides {display:none;margin-left:250px;}
+.w3-left, .w3-right, .w3-badge {cursor:pointer;font-size:50px;position:absolute;top:500px;}
+.w3-right{right:10px;}
+.w3-badge {height:13px;width:13px;padding:0}
+/* ===========================================================
+   BOOTSTRAP ELEMENTS CHANGES   
+   ============================================================*/
+.navbar {
+    font-weight: 500;
+    font-size: 14px;
+	
+}
+
+.navbar-inverse {
+	
+    background: black;
+	border-radius:25px;
+	border:dotted black;
+border-width:3px;	
+	height:15%;
+	
+}
+
+    .navbar-inverse .navbar-nav > .active > a {
+        background: #ffffff;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color:#ffffff;
+        font-weight: bolder;
+        font-size: 25px;
+        font-weight: 900;
+        letter-spacing: 2px;
+		margin-top:20px;
+    }
+
+    .navbar-inverse :hover .navbar-brand:hover {
+        color:black;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+margin-top:20px;
+       color:#ffffff;
+	   font-size:20px;
+	   font-weight:bold;
+    }
+
+
+/* ==========================================================================
+   FOOTER SECTION
+   ========================================================================== */
+
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+}
